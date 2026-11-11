@@ -1,0 +1,29 @@
+{
+	"schemaVersion": 1,
+	"id": "aegis",
+	"version": "${version}",
+	"name": "Iron Man — Mark 42",
+	"description": "Iron Man Mark 42 suit: flight and an energy beam.",
+	"authors": [
+		"Abdu"
+	],
+	"contact": {},
+	"license": "MIT",
+	"icon": "assets/aegis/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.aegis.Aegis"
+		],
+		"client": [
+			"com.aegis.client.AegisClient"
+		]
+	},
+	"depends": {
+		"fabricloader": ">=0.16.5",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*",
+		"geckolib": "*"
+	}
+}
